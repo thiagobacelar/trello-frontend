@@ -3,14 +3,6 @@ import {Titulo, InputHeader, SelectHeader} from '../../assets/style/style';
 
 import dados from '../../api/api.json';
 
-let pessoas =  "";
-
-pessoas = dados.people.map(item => {
-    let nomes = "<li>" + item.name + "</li>";
-    return nomes;
-});
-
-console.log(pessoas);
 
 function Header(){
     return(
