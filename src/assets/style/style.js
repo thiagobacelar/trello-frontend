@@ -117,6 +117,7 @@ const ItemButton = styled.a`
 const ItemCard = styled.div`
   width:92%;
   margin: 0 auto;
+  margin-bottom:10px;
   background-color:#ffffff;
   color:#232323;
   border-radius:3px;
@@ -162,8 +163,34 @@ const ItemTexto = styled.p`
   color:#232323;
 `;
 
+/* criar card */
+
+const LinkCard = styled.a`
+ width:100%;
+ font-family: 'Roboto', sans-serif;
+ font-size:14px;
+ font-weight:500;
+ color:#707070;
+ display:flex;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding-left:10px;
+`;
+
+const CriarCard = styled.div`
+ width:92%;
+ height:30px;
+ margin:0 auto;
+ border:1px dashed #c5c5c5;
+ display: flex;
+ justify-content: end;
+ align-items: center;
+`;
+
+
+
 
 export {Titulo, InputHeader, SelectHeader, ListaBoxWrap, Lista,
         ListaHeaderBox,ListaHeaderImg, ListaHeaderSubTitulo, 
         ItemCard, ItemBox, ItemTag, ItemAvatar, ItemTexto, ItemBoxTag,
-        ItemButton, BoxButton};
+        ItemButton, BoxButton, CriarCard, LinkCard};

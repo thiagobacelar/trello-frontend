@@ -2,6 +2,7 @@ import React from 'react';
 import {ListaBoxWrap, Lista} from '../../assets/style/style';
 import {ListaHeader , ListaButton} from '../lista-header/ListaHeader';
 import Card from '../card/card';
+import Criarcard from '../card/criarcard';
 
 
 function ListaWrap(props){
@@ -12,7 +13,8 @@ function ListaWrap(props){
                <React.Fragment>
                   <ListaButton />
                   <Card texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quos nostrum adipisci" /> 
+                    Quos nostrum adipisci" />
+                    <Criarcard  texto="+ task" /> 
                   </React.Fragment>
             </Lista>
             <Lista>
