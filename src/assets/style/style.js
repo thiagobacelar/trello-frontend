@@ -42,7 +42,7 @@ const ListaBoxWrap = styled.div`
 const Lista = styled.div`
  width:25%;
  height:75vh;
- background-color:#F4F5F7;
+ background-color:${props => props.bg};
  margin-right:10px;
  padding-bottom:20px;
  overflow:hidden;
@@ -187,10 +187,31 @@ const CriarCard = styled.div`
  align-items: center;
 `;
 
+const LinkColuna = styled.a`
+ width:100%;
+ font-family: 'Roboto', sans-serif;
+ font-size:14px;
+ font-weight:500;
+ color:#707070;
+ display:flex;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding-left:10px;
+`;
+
+const CriarColuna = styled.div`
+ height:66px;
+ margin:0 auto;
+ border:1px dashed #c5c5c5;
+ background-color: #F4F5F7;
+ display: flex;
+ justify-content: end;
+ align-items: center;
+`;
 
 
 
 export {Titulo, InputHeader, SelectHeader, ListaBoxWrap, Lista,
         ListaHeaderBox,ListaHeaderImg, ListaHeaderSubTitulo, 
         ItemCard, ItemBox, ItemTag, ItemAvatar, ItemTexto, ItemBoxTag,
-        ItemButton, BoxButton, CriarCard, LinkCard};
+        ItemButton, BoxButton, CriarCard, LinkCard, CriarColuna, LinkColuna};
