@@ -5,7 +5,7 @@ Alguns requisitos para executar esse projeto:
  <b> Node instalado </b>: https://nodejs.org/en/ <br>
  <b> Intalação do Yarn: </b>  https://classic.yarnpkg.com/en/docs/install/#windows-stable
  <br><br>
-Para baixar o repositório local siga essas etapas:
+Para baixar esté repositório para o local siga essas etapas:
 <br>
 1) Faça um git clone https://github.com/thiagobacelar/trello-frontend.git do repositorio 
 2) Navegue no terminal até o repositório local <b>trello-frontend </b> é de o comando <b> Yarn Install </b> para instalar todas as dependências do projeto.
