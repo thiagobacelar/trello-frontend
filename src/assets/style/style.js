@@ -203,7 +203,7 @@ const CriarColuna = styled.div`
  height:66px;
  margin:0 auto;
  border:1px dashed #c5c5c5;
- background-color: #F4F5F7;
+ background-color: #FFFFFF;
  display: flex;
  justify-content: end;
  align-items: center;

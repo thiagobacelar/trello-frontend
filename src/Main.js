@@ -1,7 +1,7 @@
 import React from 'react';
 //mport logo from './logo.svg';
 //importar os componentes aqui !
-import Header from './componente/header/header';
+import {Header} from './componente/header/header';
 import ListaWrap from './componente/lista-wrap/ListaWrap';
 
 
