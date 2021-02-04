@@ -7,7 +7,8 @@ import CriarColuna from './criarcoluna';
 
 const corcoluna = "#F4F5F7";
 
-function ListaWrap(props){
+export default function ListaWrap(){
+  
     return(
         <ListaBoxWrap>
             <Lista bg={corcoluna}>
@@ -38,5 +39,3 @@ function ListaWrap(props){
     )
 }
 
-
-export default ListaWrap;
